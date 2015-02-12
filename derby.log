@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Feb 12 09:41:57 WIB 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.3 - (1557168): instance a816c00e-014b-7baa-0eb4-000001351358 
+on database directory /home/sora/.netbeans-derby/reminder with class loader sun.misc.Launcher$AppClassLoader@66d3c617 
+Loaded from file:/usr/local/java/jdk1.8.0_25/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_25-b17
+user.dir=/home/sora/NetBeansProjects/Reminder
+os.name=Linux
+os.arch=amd64
+os.version=3.16.0-29-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

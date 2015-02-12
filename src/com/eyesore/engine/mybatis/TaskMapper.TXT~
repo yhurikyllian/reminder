@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eyesore.engine.mybatis.TaskMapper">
+<resultMap type="Task" id="TaskResult">
+<id property="ID" column="ID"/>
+<result property="TASK" column="TASK"/>
+<result property="DAY" column="DAY"/>
+<result property="REPEAT" column="REPEAT"/>
+<result property="STATUS" column="STATUS"/>
+</resultMap>
+<select id="selectData" resultMap="TaskResult">
+SELECT * FROM SCHEDULE
+</select>
+<select id="selectTaskByDay" parameterType="String"
+resultType="TASK">
+SELECT ID AS ID, TASK, DAY, REPEAT,STATUS
+FROM STUDENTS WHERE DAY=#{Id}
+</select>
+<insert id="insertTask" parameterType="Task">
+INSERT INTO SCHEDULE(TASK,DAY,REPEAT,STATUS)
+VALUES(#{},#{name},#{email},#{dob})
+</insert>
+</mapper>

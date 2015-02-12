@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<typeAliases>
+<typeAlias alias="Task"
+type="com.eyesore.engine.mybatis.domain.Task"/>
+</typeAliases>
+<environments default="development">
+<environment id="development">
+<transactionManager type="JDBC"/>
+<dataSource type="POOLED">
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="url"
+value="jdbc:derby:/home/sora/.netbeans-derby/reminder"/>
+<property name="username" value="kiminoirumachi"/>
+<property name="password" value="kiminoirumachi"/>
+</dataSource>
+</environment>
+</environments>
+<mappers>
+<mapper resource="com/eyesore/engine/mybatis/mappers/TaskMapper.xml"/>
+</mappers>
+</configuration>
