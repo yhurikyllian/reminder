@@ -107,7 +107,7 @@
             <Property name="editable" type="boolean" value="false"/>
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="License&#xa;-------------------------"/>
+            <Property name="text" type="java.lang.String" value="License GNU GPL v2&#xa;-------------------------"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -127,7 +127,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Version : 1.1"/>
+        <Property name="text" type="java.lang.String" value="Version : 1.2"/>
       </Properties>
     </Component>
   </SubComponents>

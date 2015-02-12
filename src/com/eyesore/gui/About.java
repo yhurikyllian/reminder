@@ -47,7 +47,7 @@ public class About extends javax.swing.JDialog {
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("License\n-------------------------");
+        jTextArea1.setText("License GNU GPL v2\n-------------------------");
         jScrollPane1.setViewportView(jTextArea1);
 
         jLabel3.setText("Other application : github.com/yhurikyllian");
@@ -59,7 +59,7 @@ public class About extends javax.swing.JDialog {
             }
         });
 
-        jLabel4.setText("Version : 1.1");
+        jLabel4.setText("Version : 1.2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
